@@ -1,0 +1,15 @@
+body {
+	font-family: Handlee, Helvetica, sans-serif;
+}
+
+.container {
+	text-align: center;
+}
+
+#temperature {
+	font-size: 200px;
+}
+
+#footer {
+	text-align: left;
+}

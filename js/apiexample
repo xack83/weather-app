@@ -1,0 +1,38 @@
+{
+	"coord": {
+		"lon":-0.38,
+		"lat":39.47
+	},
+	"weather":[{
+		"id":801,
+		"main":"Clouds",
+		"description":"few clouds",
+		"icon":"02d"
+	}],
+	"base":"stations",
+	"main":{
+		"temp":303.15,
+		"pressure":1003,
+		"humidity":27,
+		"temp_min":299.82,
+		"temp_max":306.15
+	},
+	"visibility":10000,
+	"wind":{
+		"speed":8.2,
+		"deg":250
+	},
+	"clouds":{"all":20},
+	"dt":1442415448,
+	"sys":{
+		"type":1,
+		"id":5503,
+		"message":0.0096,
+		"country":"ES",
+		"sunrise":1442382226,
+		"sunset":1442426888
+	},
+	"id":2509954,
+	"name":"Valencia",
+	"cod":200
+}
