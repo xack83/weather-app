@@ -1,5 +1,11 @@
 body {
-	font-family: Handlee, Helvetica, sans-serif;
+	background-image: url('../img/01d.jpg');
+}
+
+#tii {
+	font-family: 'Knewave', cursive;
+	color: #eef;
+	font-size: 80px;
 }
 
 .container {
@@ -7,7 +13,9 @@ body {
 }
 
 #temperature {
-	font-size: 200px;
+	font-family: 'Knewave';
+	color: #eef;
+	font-size: 150px;
 }
 
 #footer {

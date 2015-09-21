@@ -27,15 +27,22 @@ var getData = function (loc, units) {
 	}
 
 	var json = JSON.parse(xhr.responseText);
+	var iconID = json.weather[0].icon;
 	document.getElementById("location").innerHTML = json.name+", "+json.sys.country;
 	document.getElementById("temperature").innerHTML = json.main.temp.toFixed(0)+"º";
+	document.getElementById("iconWeather").src = "http://openweathermap.org/img/w/"+json.weather[0].icon+".png";
 	document.getElementById("other").innerHTML = json.weather[0].description+" | "+json.wind.speed+" "+windSpeed;
+
+	$(document).ready(function() {
+	    $('body').css("background-image", "url(./img/"+iconID+".png)");
+	});
 };
 
 var myLoc = getLocation();
 getData(myLoc,"metric");
 
 $(document).ready(function() {
+	//Change celsius/fahrenheit
     $('#celsius').click(function() {
         getData(myLoc,"metric");
     });
