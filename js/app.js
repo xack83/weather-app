@@ -31,10 +31,12 @@ var getData = function (loc, units) {
 	document.getElementById("location").innerHTML = json.name+", "+json.sys.country;
 	document.getElementById("temperature").innerHTML = json.main.temp.toFixed(0)+"º";
 	document.getElementById("iconWeather").src = "http://openweathermap.org/img/w/"+json.weather[0].icon+".png";
-	document.getElementById("other").innerHTML = json.weather[0].description+" | "+json.wind.speed+" "+windSpeed;
+	document.getElementById("weather-desc").innerHTML = json.weather[0].description;
+	document.getElementById("wind-info").innerHTML = json.wind.speed+" "+windSpeed;
 
 	$(document).ready(function() {
-	    $('body').css("background-image", "url(./img/"+iconID+".png)");
+	    //$('body').css("background-image", "url(./img/"+iconID+".png)");
+	    $('body').css("background-image", "url(./img/01d.png)");
 	});
 };
 

@@ -9,29 +9,37 @@
 	<!-- SCRIPTS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<!-- FONTS -->
-	<link href='https://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Knewave' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Finger+Paint' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<div class="container">
-		<div class="container">
+		<div class="app-font">
 			<h1 id="tii">Weather App</h1>
 		</div>
-		<div class="container" id="location">
-			Location, Country
+	</div>
+	<div class="container ">
+	<div class="row">
+		<div class="col-md-4 col-md-offset-4 wrapper">
+			<div class="row" id="location">Location</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-1">
+						<div class="item"><img src="" id="iconWeather"></div>
+						<div class="item"><a id="celsius">Cº</a></div>
+						<div class="item"><a id="fah">Fº</a></div>
+					</div>
+					<div class="col-md-3 app-font" id="temperature"></div>
+				</div>	
+			</div>
+			<div class="row">
+				<div id="weather-desc"></div>
+				<div id="wind-info"></div>
+			</div>
 		</div>
-		<img src="" id="iconWeather">
-		<div class="container" id="temperature">
-			Temperature
-		</div>
-		<div class="container" id="toggle-temp">
-			<a id="celsius">Cº</a>
-			<a id="fah">Fº</a>
-		</div>
-		<div class="container" id="other">
-			Other data
-		</div>
+	</div>
+	</div>
+	
 		<div class="navbar-fixed-bottom" id="footer">
 			A site created by <a href="https://github.com/xack83">Carlos Rodrigo</a> as part of <a href="http://www.freecodecamp.com/xack83">Free Code Camp</a> curriculum.
 		</div>
