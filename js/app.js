@@ -35,8 +35,8 @@ var getData = function (loc, units) {
 	document.getElementById("wind-info").innerHTML = json.wind.speed+" "+windSpeed;
 
 	$(document).ready(function() {
-	    //$('body').css("background-image", "url(./img/"+iconID+".png)");
-	    $('body').css("background-image", "url(./img/01d.png)");
+	    $('body').css("background-image", "url(./img/"+iconID+".png)");
+	    //$('body').css("background-image", "url(./img/50n.png)");
 	});
 };
 
