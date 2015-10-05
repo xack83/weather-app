@@ -1,57 +1,87 @@
+/* HTML Tags */
+
 body {
-	background-image: url('../img/01d.png');
+	background-image: url('../img/01n.png');
 }
 
-a {
-	color: white;
-}
+/* Bootstrap fixes */
+
 .container {
 	text-align: center;
-	color: white;
+	color: #eee;
 }
+
+.container a {
+	color:#666;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.container a:hover {
+    text-decoration: none;
+}
+
+.row {
+	margin: 0;
+}
+
+/* Container classes */
 
 .wrapper {
 	margin: 20px;
 	background-color: rgba(100,100,100,0.6);
 	border-color: 1px solid #fff;
-	border-radius: 6%;
+	border-radius: 25%;
 }
+
+/* Fonts */
 
 .app-font {
 	font-family: 'Knewave', cursive;
 	color: #fef;
 }
 
-#app-title {
-	font-size: 70px;
+.body-font {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
 }
 
+/* Body classes */
+
 .item {
-	width: 30px;
-	height: 30px;
-	margin-left: 10px;
-	margin-top: 20px;
-	padding: 10px;
 	font-size: 30px;
 }
 
-.butt {
-    color: white;
+/* Body IDs */
+
+#app-title {
+	font-size: 65px;
 }
 
-#item2 {
-	width: 50px;
-	height: 50px;
-	margin: 0px;
-	padding: 0px;
+#location {
+	padding-top: 10px;
+}
+
+#wind-info {
+	padding-bottom: 10px;
+}
+
+#celsius {
+	color: #eee;
 }
 
 #temperature {
-	font-size: 150px;
+	font-size: 130px;
+	padding: 0px;
+	margin: 0px;
 }
 
+/* Footer */
+
 #footer {
+	text-align: left;
 	background-color: rgba(255,255,255,0.75);
 	padding: 10px 0px 10px 20px;
 	margin: 0;
+	color: #555;
 }

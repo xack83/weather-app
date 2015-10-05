@@ -10,7 +10,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<!-- FONTS -->
 	<link href='https://fonts.googleapis.com/css?family=Knewave' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Finger+Paint' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<div class="container">
@@ -18,31 +18,28 @@
 			<h1 id="app-title">Weather App</h1>
 		</div>
 	</div>
-	<div class="container ">
-	<div class="row">
-		<div class="col-md-4 col-md-offset-4 wrapper">
-			<div class="row" id="location">Location</div>
-			<div class="container">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4 wrapper">
+				<div class="row body-font">
+					<div id="location">Location</div>
+					<div class="item"><img src="" id="iconWeather"></div>
+				</div>
 				<div class="row">
-					<div class="col-md-1">
-						<div class="item2" id="icon-er"><img src="" id="iconWeather"></div>
-						<div class="item"><a class="butt" id="celsius">Cº</a></div>
-						<div class="item"><a class="butt" id="fah">Fº</a></div>
-					</div>
-					<div class="col-md-3 app-font" id="temperature"></div>
-				</div>	
-			</div>
-			<div class="row">
-				<div id="weather-desc"></div>
-				<div id="wind-info"></div>
+					<div class="app-font" id="temperature"></div>
+				</div>
+				<div class="row">
+					<div class="item body-font"><a class="rarar" id="celsius">Cº</a>  <a id="fah">Fº</a></div>
+				<div class="row">
+					<div class="body-font" id="weather-desc"></div>
+					<div class="body-font" id="wind-info"></div>
+				</div>
+				</div>
 			</div>
 		</div>
 	</div>
-	</div>
-	
-		<div class="navbar-fixed-bottom" id="footer">
-			A site created by <a href="https://github.com/xack83">Carlos Rodrigo</a> as part of <a href="http://www.freecodecamp.com/xack83">Free Code Camp</a> curriculum.
-		</div>
+	<div class="navbar-fixed-bottom" id="footer">
+		A site created by <a href="https://github.com/xack83">Carlos Rodrigo</a> as part of <a href="http://www.freecodecamp.com/xack83">Free Code Camp</a> curriculum.
 	</div>
 	<script src="js/app.js"></script>
 </body>
